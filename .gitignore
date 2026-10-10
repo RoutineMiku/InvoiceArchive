@@ -1,0 +1,29 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 构建缓存（dist/ 另行提交，故不忽略）----
+build/
+*.spec.bak
+
+# ---- 运行时数据（个人数据不入库）----
+data/*.xlsx
+data/backup/
+data/*.writing.xlsx
+data/设置.json
+
+# ---- 测试产物 ----
+_test/shots/
+_test/samples/
+_test/__pycache__/
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
